@@ -1,0 +1,13 @@
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\TestProject1.dll
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\TestProject1.pdb
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\AmCharts.Windows.Stock.dll
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\GoldAnalyse.exe
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\NNM.dll
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\WPFToolkit.dll
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\GoldAnalyse.pdb
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.pdb
+U:\Graduate Store\GoldAnalyse\TestProject1\bin\Debug\WPFToolkit.pdb
+U:\Graduate Store\GoldAnalyse\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+U:\Graduate Store\GoldAnalyse\TestProject1\obj\Debug\TestProject1.dll
+U:\Graduate Store\GoldAnalyse\TestProject1\obj\Debug\TestProject1.pdb

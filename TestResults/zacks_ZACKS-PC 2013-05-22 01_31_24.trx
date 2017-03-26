@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="88762c3c-8596-43e0-9476-a93c8513d14e" name="zacks@ZACKS-PC 2013-05-22 01:31:24" runUser="zacks-PC\zacks" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="本地" id="4fdb6798-8806-4254-a6a5-ce68b783877c">
+    <Description>这些设置为本地测试运行的默认测试设置。</Description>
+    <Deployment enabled="false" runDeploymentRoot="zacks_ZACKS-PC 2013-05-22 01_31_24">
+      <DeploymentItem filename="C:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\WPFToolkit.dll" />
+      <DeploymentItem filename="U:\Graduate Store\GoldAnalyse\GoldAnalyse\bin\Debug\GoldAnalyse.exe" />
+      <DeploymentItem filename="U:\Graduate Store\GoldAnalyse\NNM.dll" />
+      <DeploymentItem filename="U:\Graduate Store\GoldAnalyse\GoldAnalyse\bin\Debug\AmCharts.Windows.Stock.dll" />
+      <DeploymentItem filename="C:\Program Files (x86)\WPF Toolkit\v3.5.50211.1\System.Windows.Controls.DataVisualization.Toolkit.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-05-22T01:31:24.1917568+08:00" queuing="2013-05-22T01:31:28.1349823+08:00" start="2013-05-22T01:31:28.4109981+08:00" finish="2013-05-22T01:31:31.3511663+08:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetIndexTest" storage="u:\graduate store\goldanalyse\testproject1\bin\debug\testproject1.dll" id="14795dcc-23b9-28c0-8fe5-671db0a69663">
+      <Execution id="d74cad9f-bf0e-489d-878d-1e33e06a39fb" />
+      <TestMethod codeBase="U:/Graduate Store/GoldAnalyse/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.SpiderTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetIndexTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="列表中未列出的结果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="所有已加载的结果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="14795dcc-23b9-28c0-8fe5-671db0a69663" executionId="d74cad9f-bf0e-489d-878d-1e33e06a39fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d74cad9f-bf0e-489d-878d-1e33e06a39fb" testId="14795dcc-23b9-28c0-8fe5-671db0a69663" testName="GetIndexTest" computerName="ZACKS-PC" duration="00:00:00.6161678" startTime="2013-05-22T01:31:28.6270105+08:00" endTime="2013-05-22T01:31:31.1641556+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d74cad9f-bf0e-489d-878d-1e33e06a39fb">
+      <Output>
+        <ErrorInfo>
+          <Message>测试方法 TestProject1.SpiderTest.GetIndexTest 引发了异常: 
+System.IO.FileNotFoundException: File '..//..//PyShell//Global_Index.py' not found in language's search path: .</Message>
+          <StackTrace>    在 Microsoft.Scripting.Hosting.ScriptRuntime.UseFile(String path)
+   在 GoldAnalyse.PyShell.Spider.Initilize_Index() 位置 U:\Graduate Store\GoldAnalyse\GoldAnalyse\PyShell\Spider.cs:行号 112
+   在 GoldAnalyse.PyShell.Spider.GetIndex() 位置 U:\Graduate Store\GoldAnalyse\GoldAnalyse\PyShell\Spider.cs:行号 29
+   在 TestProject1.SpiderTest.GetIndexTest() 位置 U:\Graduate Store\GoldAnalyse\TestProject1\SpiderTest.cs:行号 77
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

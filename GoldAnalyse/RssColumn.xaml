@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="GoldAnalyse.RssColumn"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition Height="30">
+            </RowDefinition>
+            <RowDefinition Height="25">
+            </RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Name="NTitle" Content="12312412" Grid.Row ="0" FontSize="15" BorderBrush="#FF271919"></Label>
+        <Label Name="NSource" Content="个半年发哥和" Grid.Row="1" FontSize="10"></Label>
+        <Label Name="NTime" Content="2013-05-01" Grid.Row="1" FontSize="10" HorizontalContentAlignment="Right"></Label>
+    </Grid>
+</UserControl>

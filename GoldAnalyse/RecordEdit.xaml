@@ -1,0 +1,19 @@
+﻿<Window x:Class="GoldAnalyse.RecordEdit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RecordEdit" Height="300" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="182*" />
+            <ColumnDefinition Width="96*" />
+        </Grid.ColumnDefinitions>
+        <Label Content="2013-" Height="25" HorizontalAlignment="Left" Margin="39,0,0,0" Name="label_Date" VerticalAlignment="Top" Width="134" />
+        <Label Content="2013-" Height="25" HorizontalAlignment="Left" Margin="0,21,0,0" Name="label_GoldInfo" VerticalAlignment="Top" Width="266" Grid.ColumnSpan="2" />
+        <Label Content="标题：" Height="28" HorizontalAlignment="Left" Margin="0,43,0,0" Name="label3" VerticalAlignment="Top" />
+        <Label Content="内容：" Height="28" HorizontalAlignment="Left" Margin="0,63,0,0" Name="label4" VerticalAlignment="Top" />
+        <TextBox Height="165" HorizontalAlignment="Left" Margin="39,72,0,0" Name="textBox_Detail" VerticalAlignment="Top" Width="227" Grid.ColumnSpan="2" />
+        <Button Content="登记" Grid.Column="1" Height="20" HorizontalAlignment="Left" Margin="45,239,0,0" Name="button1" VerticalAlignment="Top" Width="40" Click="button1_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="39,43,0,0" Name="textBox_Title" VerticalAlignment="Top" Width="227" Grid.ColumnSpan="2" />
+        <Label Content="日期：" Height="28" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" />
+    </Grid>
+</Window>

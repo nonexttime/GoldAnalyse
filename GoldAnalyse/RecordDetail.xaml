@@ -1,0 +1,13 @@
+﻿<Window x:Class="GoldAnalyse.RecordDetail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RecordDetail" Height="700" Width="200">
+    <Grid>
+        <Label Content="标题：" HorizontalAlignment="Left" Margin="-1,12,0,624" Name="Label_Title" Width="48" />
+        <Label Content="日期：" Height="25" HorizontalAlignment="Left" Margin="-1,36,0,0" Name="label1" VerticalAlignment="Top" Width="48" />
+        <Label Content="内容：" Height="25" HorizontalAlignment="Left" Margin="-1,0,0,569" Name="label2" VerticalAlignment="Bottom" Width="48" />
+        <TextBlock Height="530" HorizontalAlignment="Left" Margin="12,98,0,0" Name="textBlock_Detail" Text="TextBlock" VerticalAlignment="Top" Width="154" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="46,14,0,0" Name="textBox_Title" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="46,43,0,0" Name="textBox_Date" VerticalAlignment="Top" Width="120" />
+    </Grid>
+</Window>
