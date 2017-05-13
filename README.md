@@ -42,11 +42,14 @@ XML:
 ![ABC](https://github.com/nonexttime/GoldAnalyse/blob/master/Images/k01.JPG)
 
 4 指数比较模块设计
+![ABC](https://github.com/nonexttime/GoldAnalyse/blob/master/Images/k02.JPG)
 
 5 黄金及指数实时数据显示 模块设计
+![ABC](https://github.com/nonexttime/GoldAnalyse/blob/master/Images/k03.JPG)
 
 
 6 计量模型模拟模块
+![ABC](https://github.com/nonexttime/GoldAnalyse/blob/master/Images/k04.JPG)
 
  
 四、代码
