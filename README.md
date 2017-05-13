@@ -39,7 +39,7 @@ XML:
 显示效果:
 
 3 K线图信息记录模块设计
-![image](https://github.com/nonexttime/GoldAnalyse/Images/k01.JPG)
+![ABC](https://github.com/nonexttime/GoldAnalyse/blob/master/Images/k01.JPG)
 
 4 指数比较模块设计
 
